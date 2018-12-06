@@ -7,7 +7,7 @@ round-pct: func [value][
 ; load code and remove unnecessary part
 body: load %markdown.red
 remove/part body 2
-body: find body quote text-file
+body: find body quote text-file:
 clear body
 
 ; add custom code and make function
